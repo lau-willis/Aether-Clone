@@ -1,0 +1,266 @@
+.outer-container{
+	background-color: white;
+}
+
+.container{
+	max-width: 92%;
+	max-height: 100%;
+	margin:auto;
+	z-index: 1;
+	position: relative;
+	background-color: white;
+}
+
+.myheader{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	width: 92%;
+	background-color: white;
+	height: 15%;
+	z-index: 2;
+}
+.item1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.text{
+	padding-left: 8px;
+}
+
+.item2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.item3{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.layout-icon{
+	width: 20px;
+	height: 20px;
+}
+
+.three-icons{
+	justify-content: space-between;
+}
+
+.lightning{
+	width: 40px;
+	height: 40px;
+}
+
+.search{
+	width: 20px;
+	height: 20px;
+}
+
+.profile{
+	width: 20px;
+	height: 20px;
+	padding-left: 20px;
+}
+
+.shopping{
+	width: 20px;
+	height: 20px;
+	padding-left: 20px;
+}
+
+video{
+	margin-top: 5%;
+	width: 100%;
+	height: 800px;
+}
+
+.first-text{
+	margin-top: 6%;
+	height: 120px;
+	text-align: center;
+}
+
+.shopping-pics{
+	position:relative;
+}
+
+p{
+	font-family: sans-serif;
+}
+
+.text-shop{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 25%;
+	position: absolute;
+	color: white;
+}
+
+.shopping-stuff{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.men-women-resized{
+	width: 49%;
+	height: 40%;
+}
+
+img:hover{
+	opacity: 0.3;
+	transition: opacity .30s ease-in-out;
+}
+
+#roadtrip{
+	padding-top: 10%;
+	width: 60%;
+	height: 100%;
+	margin: auto;
+}
+
+.mid-texts{
+	padding-top: 4%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	margin:auto;
+}
+
+.womens{
+	width: 100%;
+}
+
+.moto-head{
+	padding-left: 27%;
+	padding-bottom: 5%;
+}
+
+.moto-summary{
+	padding-bottom: 15px;
+}
+
+.midcontainer{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.clickbox{
+	display: inline-block;
+	width: 195px;
+	height: 40px;
+	border: 1px solid black;
+	display: flex;
+	text-decoration: none;
+	background-color: white;
+	transition: background-color 0.5s ease;
+}
+
+.clickbox:hover{
+	color: white;
+	background-color: black;
+}
+
+.clicking{
+	padding-top: 3%;
+	margin: auto;
+	display: flex;
+}
+
+.feature{
+	margin: auto;
+}
+
+.fashion-pics{
+	margin-top: 4%;
+	display: flex;
+	flex-direction: column;
+}
+
+.glasses{
+	width: 49%;
+	height: 49%;
+}
+
+.store{
+	width: 49%;
+	height: 49%;
+}
+
+.columned{
+	margin-top: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.last{
+	margin-top: 2%;
+}
+
+
+.footer-links{ 
+	display: flex;
+	justify-content: space-between;
+	margin: 8% auto;
+	width: 60%;
+}
+
+.inline{
+	flex-direction: row;
+}
+
+.foot{
+	
+	background-color: black;
+	width: 100%;
+	height: 440px;
+	z-index: -1;
+	bottom: 0;
+	position:fixed;
+	color: white;
+	text-align: center;
+}
+
+.wrapper-parallax{
+	margin-bottom: 440px;
+}
+
+.email{
+	margin-top: 8%;
+}
+
+.foot-info{
+	margin-top: 2%;
+}
+
+.linecontain{
+	height:20%;
+}
+
+.line{
+	margin: 3% auto;
+	width: 18%;
+	border: 1px solid white;
+}
+
+.trademark{
+	margin-top: 4%;
+}
+
+.privacy{
+	margin-top: 1%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
